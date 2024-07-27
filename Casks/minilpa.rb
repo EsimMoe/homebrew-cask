@@ -8,7 +8,7 @@ cask "minilpa" do
     desc "Professional LPA UI"
     homepage "https://github.com/EsimMoe/MiniLPA"
 
-    depends_on macos: ">= catalina"
+    depends_on macos: ">= Catalina"
 
     app "MiniLPA.app"
 
