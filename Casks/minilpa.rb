@@ -8,8 +8,6 @@ cask "minilpa" do
     desc "Professional LPA UI"
     homepage "https://github.com/EsimMoe/MiniLPA"
 
-    depends_on macos: ">= :ventura"
-
     app "MiniLPA.app"
 
     uninstall quit:      "moe.sekiu.MiniLPA",
